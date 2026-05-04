@@ -4,6 +4,7 @@ import Register from "./components/Register"
 import Portfolio from "./components/Portfolio"
 import MarketFeed from "./components/MarketFeed"
 import TradePanel from "./components/TradePanel"
+import StockSale from "./components/StockSale"
 import UpdatePrice from "./components/UpdatePrice"
 import useWebSocket from "./hooks/useWebSocket"
 
@@ -85,6 +86,7 @@ export default function App() {
         <UpdatePrice user={user} token={token} onUpdate={updateUser} onStockCreated={refetchStocks} />
         <TradePanel token={token} user={user} setUser={updateUser} />
         <MarketFeed stocks={stocks} prices={prices} />
+        <StockSale token={token} user={user} setUser={updateUser} />
       </div>
     </div>
   )
