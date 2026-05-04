@@ -36,7 +36,6 @@ export default function Register({ onAuth }) {
   return (
     <div className="auth-card">
       <div className="auth-logo">
-        <div className="auth-logo-icon">P</div>
         <span className="auth-logo-text">PEX</span>
       </div>
       <h2>Создать аккаунт</h2>

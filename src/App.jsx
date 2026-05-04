@@ -68,8 +68,7 @@ export default function App() {
     <div>
       <header className="app-header">
         <div className="app-header-brand">
-          <div className="app-header-logo">P</div>
-          <h1>PEX — Personal Exchange</h1>
+          <h1>PEX</h1>
         </div>
         <div className="app-header-user">
           <div className="app-header-greeting">

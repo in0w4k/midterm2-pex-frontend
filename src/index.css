@@ -82,20 +82,6 @@ body {
   gap: 10px;
 }
 
-.app-header-logo {
-  width: 30px;
-  height: 30px;
-  background: linear-gradient(135deg, var(--indigo), var(--cyan));
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  flex-shrink: 0;
-}
-
 .app-header h1 {
   font-size: 16px;
   font-weight: 700;
@@ -217,19 +203,6 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 28px;
-}
-
-.auth-logo-icon {
-  width: 36px;
-  height: 36px;
-  background: linear-gradient(135deg, var(--indigo), var(--cyan));
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: 800;
-  color: #fff;
 }
 
 .auth-logo-text {
